@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trends page </title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+
+<body>
+            <script>
+                function showSidebar() {
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'flex'
+                }
+                function closeSidebar() {
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'none'
+                }
+            </script>
+        </div>
+        <div class="header">
+            <div class="logopic">
+                <a href="index.html"><img src="https://madithyac.neocities.org/logo.jpg" class="logo" alt="logo"
+                        height="50" title="logo"></a>
+            </div>
+            <div class="logoword">
+                <a href="index.html">
+                    <h3>TECH NEWS™</h3>
+                </a>
+            </div>
+            <div class="navigationbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="trends.html">Trends</a></li>
+                <li><a href="science.html">Science</a></li>
+                <div class="menubar">
+                    <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                                viewBox="0 -960 960 960" width="24">
+                                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                                    fill="#ffffff" />
+                            </svg></a></li>
+                </div>
+            </div>
+            <nav>
+                <ul class="sidebar">
+                    <div class="x">
+                        <li onclick=closeSidebar()><a href="#">X</a></li>
+                    </div>
+                    <li><a href="productreviews.html">Product reviews</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">My Products</a></li>
+                </ul>
+            </nav>
+        </div>
+</body>
+
+</html>

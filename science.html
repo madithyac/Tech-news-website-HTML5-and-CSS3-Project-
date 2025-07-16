@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+
+<body>
+    <div class="mainclass">
+        <p>
+        <h2 id="science">Difference Between Science and Technology</h2>
+        <caption>The following table shows key differences between science and technology in a simple and rudimentary
+            way
+        </caption>
+        <table>
+            <tr>
+                <th>BASIS FOR COMPARISON </th>
+                <th>SCIENCE</th>
+                <th>TECHNOLOGY</th>
+            <tr>
+                <td>Meaning</td>
+                <td>Science is a methodical way of gaining knowledge on a particular subject, through observation and
+                    experiments.</td>
+                <td>Technology alludes to the practical application of the scientific knowledge for various purposes.
+                </td>
+            </tr>
+            <tr>
+                <td>What is it?</td>
+                <td>It is the process of exploring new knowledge.</td>
+                <td>It is the use of laws of science to create new products.</td>
+            </tr>
+            <tr>
+                <td>Effect</td>
+                <td>It is useful</td>
+                <td>It can be useful or harmful.</td>
+            </tr>
+            <tr>
+                <td>Change</td>
+                <td>Does not changes.</td>
+                <td>Changes continuously</td>
+            </tr>
+            <tr>
+                <td>Stresses on</td>
+                <td>Discovery</td>
+                <td>Invention</td>
+            </tr>
+            <tr>
+                <td>Deals with</td>
+                <td>Study of structure and behavior of natural and physical world, to create premises.</td>
+                <td>Putting those premises into practice.</td>
+            </tr>
+        </table>
+        </p>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="https://madithyac.neocities.org/science.jpg" class="trends" alt="trends" height="380"
+                        title="trends">
+                </div>
+                <div class="flip-box-back">
+                    <h2>SCIENCE VS TECHNOLOGY</h2>
+                    <p>An automated hand robot</p>
+                </div>
+            </div>
+        </div>
+        <script>
+            function showSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function closeSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+    </div>
+    <div class="header">
+        <div class="logopic">
+            <a href="index.html"><img src="https://madithyac.neocities.org/logo.jpg" class="logo" alt="logo" height="50"
+                    title="logo"></a>
+        </div>
+        <div class="logoword">
+            <a href="index.html">
+                <h3>TECH NEWS™</h3>
+            </a>
+        </div>
+        <div class="navigationbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="trends.html">Trends</a></li>
+            <li><a href="science.html">Science</a></li>
+            <div class="menubar">
+                <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                            viewBox="0 -960 960 960" width="24">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                                fill="#ffffff" />
+                        </svg></a></li>
+            </div>
+        </div>
+        <nav>
+            <ul class="sidebar">
+                <div class="x">
+                    <li onclick=closeSidebar()><a href="#">X</a></li>
+                </div>
+                <li><a href="productreviews.html">Product reviews</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">My Products</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>

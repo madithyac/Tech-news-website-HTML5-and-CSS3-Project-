@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page </title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+
+<body class="body">
+    <div class="mainclass">
+        <div class="class1">
+            <div class="apple-image">
+                <img src="https://madithyac.neocities.org/apple.jpg" class="apple" alt="apple" height="500" title="apple">
+            </div>
+            <div class="heading">
+                Apple Isn't Ready to Release Its Grip on the App Store
+            </div>
+            <div class="articletext">
+                <p class="original">Apple has announced changes for its European users due to new EU rules, allowing
+                    shopping for apps
+                    outside of Apple's
+                    App Store and enabling non-Safari browsers on iOS
+                </p>
+                <span class="dots">....</span>
+                <p class="extra">
+                    Critics argue these changes don't fully comply with the EU's Digital Markets Act (DMA). Apple will
+                    still maintain control over apps and new app stores on its devices,
+                    citing privacy and security concerns, and will charge developers a “core technology fee” for every
+                    download after the
+                    first million.
+                </p>
+                <input type="checkbox" id="btn">
+                <label for="btn"></label>
+            </div>
+            <div class="intel-image">
+                <img src="https://madithyac.neocities.org/intel.jpg" class="intel" alt="intel" height="420"
+                    title="intel">
+            </div>
+            <div class="heading">
+                Intel's AI Reboot Is the Future of US Chipmaking
+            </div>
+            <div class="articletext">
+                <p class="original">
+                    Intel's resurgence in the realm of chipmaking and its renewed focus on artificial intelligence
+                    signal
+                    a pivotal shift in the technology landscape.
+                </p>
+                <span class="dots">....</span>
+                <p class="extra">As the US government strives to maintain its competitive edge in AI,
+                    Intel's initiatives hold significant implications for the nation's technological leadership. The
+                    convergence of cutting-edge
+                    chip manufacturing capabilities and AI-driven innovations opens doors to transformative
+                    possibilities, but it also
+                    prompts reflection on the broader implications for global technological advancement. How do you
+                    perceive Intel's role in
+                    shaping the future of AI and its impact on the competitive dynamics within the tech industry?</p>
+                <input type="checkbox" id="btn2">
+                <label for="btn2"></label>
+            </div>
+        </div>
+        <div class="trendingsection">
+            <div class="rightside">TRENDING NEWS</div>
+            <div class="vl" id="line1"> </div>
+            <div class="rightheading">
+                <p>Qualcomm Chip Closing Performance Gap With Apple M3 in Leaked Benchmarks </p>
+            </div>
+            <p>
+            <div class="vl" id="line1"> </div>
+            </p>
+            <div class="rightheading">
+                <p>NASA Engineers Are Racing to Fix Voyager 1 </p>
+            </div>
+            <p>
+            <div class="vl" id="line1"> </div>
+            </p>
+            <div class="rightheading">
+                <p>Odysseus Marks the First US Moon Landing in More Than 50 Years </p>
+            </div>
+            <p>
+            <div class="vl" id="line1"> </div>
+            </p>
+            <div class="rightheading">
+                <p>The US Has Big Plans for Wind Energy—but an Obscure 1920s Law Is Getting in the Way </p>
+            </div>
+            <p>
+            <div class="vl" id="line1"> </div>
+            </p>
+            <div class="rightheading">
+                <p>Google's Chess Experiments Reveal How to Boost the Power of AI </p>
+            </div>
+            <p>
+            <div class="vl" id="line1"> </div>
+            </p>
+            <div class="rightarticle">
+                <img src="https://madithyac.neocities.org/android.jpg" class="android" alt="android" height="310"
+                    title="android">
+            </div>
+            <div class="rightarticleheading">
+                Android Auto is getting new AI feature to summarize messages
+            </div>
+            <div class="rightarticletext">
+                <p class="original">
+                    During the launch of the Galaxy S24 series, Google announced an AI-powered feature for Android Auto
+                    that
+                    can
+                </p>
+                <span class="dots">....</span>
+                <p class="extra">
+                    summarize messages that you receive while driving and provide you with various options depending on
+                    the context of
+                    messages to perform various actions. This feature keeps you from taking your eyes off the road to
+                    read those
+                    messages and perform certain actions, thereby, helping you focus on driving and prevent accidents.
+                </p>
+                <input type="checkbox" id="btn3">
+                <label for="btn3"></label>
+            </div>
+            <p><img src="https://madithyac.neocities.org/galaxy.jpg" class="galaxy" alt="galaxy" height="310"
+                    title="galaxy"></p>
+            <div class="rightarticleheading">
+                Best Samsung Phones in February 2024 - Picked by experts
+            </div>
+            <div class="rightarticletext">
+                The 6.8-inch Quad HD+ display is flat this time around, a departure from the curved panels on previous
+                models.
+            </div>
+        </div>
+    </div>
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function closeSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+
+    <div class="header">
+        <div class="logopic">
+            <a href="index.html"><img src="https://madithyac.neocities.org/logo.jpg" class="logo" alt="logo" height="50"
+                    title="logo"></a>
+        </div>
+        <div class="logoword">
+            <a href="index.html">
+                <h3>TECH NEWS™</h3>
+            </a>
+        </div>
+        <div class="navigationbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="trends.html">Trends</a></li>
+            <li><a href="science.html">Science</a></li>
+            <div class="menubar">
+                <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                            viewBox="0 -960 960 960" width="24">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                                fill="#ffffff" />
+                        </svg></a></li>
+            </div>
+        </div>
+        <nav>
+            <ul class="sidebar">
+                <div class="x">
+                    <li onclick=closeSidebar()><a href="#">X</a></li>
+                </div>
+                    <li><a href="productreviews.html">Product reviews</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">My Products</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>

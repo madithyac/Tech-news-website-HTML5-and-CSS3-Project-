@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products page </title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+
+<body class="body">
+    <div class="mainclass">
+        <h2>TRENDING PRODUCTS OF 2024</h2>
+        <div class="products">
+            <div class="product1"><img src="https://madithyac.neocities.org/visionpro.jpg" class="visionpro"
+                    alt="visionpro" height="270" title="visionpro">
+                <h4>Apple Vision Pro</h5>
+                    <p>One of the most anticipated devices of 2024 is the Apple Vision Pro.</p><br><br>
+                    <div class="videocaption">Here is a video about vision pro </p>
+                        <video width="400" controls>
+                            <source src="visionpro.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                    </div>
+            </div>
+            <div class="product2">
+                <img src="https://madithyac.neocities.org/gesmoker.jpg" class="gesmoker" alt="gesmoker" height="300"
+                    title="gesmoker">
+                <h4>GE Profile Smart Indoor Smoker</h5>
+                    <p>The brand unveiled a smart indoor smoker at CES, allowing year-round use from the comfort of your
+                        home.</p>
+            </div>
+            <div class="product3">
+                <img src="https://madithyac.neocities.org/ballie.jpg" class="ballie" alt="ballie" height="300"
+                    title="ballie">
+                <h4>Samsung Ballie</h5>
+                    <p>Samsung has announced the release of the adorable robot Ballie, reminiscent of Wall-E, for
+                        purchase
+                        later this year.</p>
+            </div>
+            <div class="product3">
+                <img src="https://madithyac.neocities.org/grill.png" class="grill" alt="grill" height="300"
+                    title="grill">
+                <h4>SeerGrills Perfecta</h5>
+                    <p>SeerGrills, an AI-powered outdoor grill, claims to cook a 1-inch ribeye in 90 seconds, with an
+                        "aiChef" app that
+                        simplifies grilling preferences.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function closeSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+    <div class="header">
+        <div class="logopic">
+            <a href="index.html"><img src="https://madithyac.neocities.org/logo.jpg" class="logo" alt="logo" height="50"
+                    title="logo"></a>
+        </div>
+        <div class="logoword">
+            <a href="index.html">
+                <h3>TECH NEWS™</h3>
+            </a>
+        </div>
+        <div class="navigationbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="trends.html">Trends</a></li>
+            <li><a href="science.html">Science</a></li>
+            <div class="menubar">
+                <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                            viewBox="0 -960 960 960" width="24">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                                fill="#ffffff" />
+                        </svg></a></li>
+            </div>
+        </div>
+        <nav>
+            <ul class="sidebar">
+                <div class="x">
+                    <li onclick=closeSidebar()><a href="#">X</a></li>
+                </div>
+                <li><a href="productreviews.html">Product reviews</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">My Products</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>
